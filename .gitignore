@@ -1,0 +1,35 @@
+# Data Directories
+data/
+raw/
+processed/
+**/raw/
+
+# Common Raw & Structured Data Files
+*.csv
+*.parquet
+*.json
+*.xlsx
+*.xls
+*.tsv
+*.feather
+
+# Compressed & Archive Files
+*.zip
+*.gz
+*.tar
+*.7z
+
+# Serialized Models & Binary Data
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.npy
+*.npz
+
+# Database Files
+*.sqlite
+*.db
+
+# Exception rule (uncomment if you need to keep a small schema/sample tracked)
+# !data/sample_schema.csv
