@@ -33,3 +33,11 @@ processed/
 
 # Exception rule (uncomment if you need to keep a small schema/sample tracked)
 # !data/sample_schema.csv
+
+# School Region Files
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.xml
